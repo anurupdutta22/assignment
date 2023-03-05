@@ -1,0 +1,42 @@
+.pizza-builder {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .pizza-base, .ingredients, .pizza-preview {
+    width: 30%;
+  }
+  
+  .base-option, .ingredient-option {
+    cursor: pointer;
+  }
+  
+  .empty-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  
+  .ingredient {
+    position: absolute;
+  }
+  
+  .pizza {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+  }
+  
+  .pizza img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
